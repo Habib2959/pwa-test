@@ -1,8 +1,7 @@
 {
 	"name": "PWA Test",
 	"short_name": "PWA",
-	"id": "/",
-	"start_url": "/",
+	"start_url": "/pwa-test/",
 	"display": "standalone",
 	"background_color": "#ffffff",
 	"theme_color": "#000000",
