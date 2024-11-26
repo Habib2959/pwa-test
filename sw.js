@@ -1,5 +1,5 @@
 //service worker
-const VERSION = "v2";
+const VERSION = "v3";
 const CACHE_NAME = `pwa-${VERSION}`;
 const APP_STATIC_RESOURCES = [
 	"/",
