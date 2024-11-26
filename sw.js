@@ -1,11 +1,11 @@
 //service worker
-const VERSION = "v3";
+const VERSION = "v4";
 const CACHE_NAME = `pwa-${VERSION}`;
 const APP_STATIC_RESOURCES = [
-	"/",
-	"/index.html",
-	"/app.js",
-	"/icon-512x512.png",
+	"/pwa-test/",
+	"/pwa-test/index.html",
+	"/pwa-test/app.js",
+	"/pwa-test/icon-512x512.png",
 ];
 // cache static resources
 self.addEventListener("install", (event) => {
